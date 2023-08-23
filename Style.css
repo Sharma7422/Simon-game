@@ -1,0 +1,55 @@
+
+body{
+    text-align: center;
+    background-color:tan;
+}.container{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+.pink{
+    background-color: #d95980;
+}
+
+.blue{
+    background-color: #63AAC0;
+}
+
+.oranged{
+    background-color: #f99b45;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+@media((min-width:200px) and (max-width:500px)){
+    .container{
+       justify-content:center;
+      
+    }
+    .box{
+        width: 130px;
+    }
+}
